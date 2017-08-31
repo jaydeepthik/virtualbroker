@@ -1,0 +1,42 @@
+body{
+  background-image: url(images/main-bg.jpg);
+  background-repeat: no-repeat ;
+  background-size: 100%, auto;
+  height: 100%;
+  margin: 0px;
+  font-family: 'Encode Sans', sans-serif;
+}
+
+.nav-bar{
+  height: 50px;
+  background: rgba(0, 0, 0, 0.1);
+  margin: 0px;
+}
+.logo{
+  float: left;
+  margin: 0px;
+}
+
+.name{
+  padding-left: 80px;
+  font-size: 30px;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.search-bar{
+  position: relative;
+  top: 250px;
+  height: 50px;
+  width: 90%;
+}
+
+.search-input{
+  width: 80%;
+  height: 85%;
+}
+
+.search-btn{
+  height: 100%;
+  width: 10%;
+}
