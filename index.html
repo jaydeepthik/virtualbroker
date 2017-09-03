@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link rel="stylesheet" type="text/css" href="style.css">
     <link href="https://fonts.googleapis.com/css?family=Encode+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
   </head>
 
   <body>
@@ -14,9 +15,16 @@
     </div>
     <div class="container">
       <center>
-        <div class="search-bar">
-          <input class="search-input">
-          <button class="search-btn"> Search </button>
+        <div class="search-bar input-group">
+          <input type="text" class="search-input form-control" placeholder="Search for..." aria-label="Search for...">
+          <span class="search-btn-holder input-group-btn">
+              <button class="btn btn-primary btn-secondary search-btn " type="button">Search</button>
+          </span>
+        </div>
+      <div class="or-holder"> OR </div>
+        <div class="select-type">
+          <button type="button" class="select-btn btn btn-primary">Hostel</button>
+          <button type="button" class="select-btn btn btn-primary">PG</button>
         </div>
       </center>
     </div>
