@@ -16,7 +16,14 @@
     <div class="container">
       <center>
         <div class="search-bar input-group">
-          <input type="text" class="search-input form-control" placeholder="Search for..." aria-label="Search for...">
+          <input list="ops" class="search-input form-control" placeholder="Search Area...">
+		<datalist id="ops">
+			<option value="Bakrol">
+			<option value="Motabazar">
+			<option value="Nanabazar">
+			<option value="Iscon">
+			<option value="Bhaikaka">
+		  </datalist>
           <span class="search-btn-holder input-group-btn">
               <button class="btn btn-primary btn-secondary search-btn " type="button">Search</button>
           </span>
